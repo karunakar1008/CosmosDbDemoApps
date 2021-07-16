@@ -8,7 +8,7 @@ namespace CosmosDbDemoApp
 
   
 
-   public class Customer1
+   public class Example3
     {
 
        public  static async Task Main(string[] args)

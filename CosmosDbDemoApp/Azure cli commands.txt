@@ -1,0 +1,46 @@
+﻿Azure CLI- Bash
+
+Create Variables:
+
+resourceGroupName='myResourceGroup'
+location='southcentralus'
+accountName='mysqlapicosmosdb2018'
+
+Create Resource group:
+
+az group create 
+--name $resourceGroupName 
+--location $accountName
+
+Create Cosmos DB:
+
+az cosmosdb create 
+--resource-group $resourceGroupName 
+--name $accountName 
+--kind GlobalDocumentDB 
+--locations regionName="South Central US" failoverPriority=0 
+--locations regionName="North Central US" failoverPriority=1 
+--default-consistency-level "Session" 
+--enable-multiple-write-locations true
+
+
+Create Console App:
+dotnet new console --langVersion 7.1 -n todo
+cd todo
+dotnet build
+
+Install the Azure Cosmos DB package:
+dotnet add package Microsoft.Azure.Cosmos
+
+Set the environment variables:
+setx EndpointUrl "https://mysqlapicosmosdb2018.documents.azure.com:443/"
+setx PrimaryKey "oZlnIWhNDQwvX6K0HSE5PIKk3RcEH5MO6Ia3SjVoUT1gVFvJtikdR0rp7vQkChdWWJCxpyjfqqomumA3WR0xBA=="
+
+
+
+
+
+Visual Studio:
+1. Create .net core console app
+2. Install from nuget package Microsoft.Azure.Cosmos
+3. Use the code to test cosmos db crud operations

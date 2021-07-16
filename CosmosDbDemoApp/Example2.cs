@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CosmosDbDemoApp
 {
-    class Example2
+  public  class Example2
     {
         static string database = "customerdb";
         static string containername = "customer";

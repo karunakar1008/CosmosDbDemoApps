@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 
 namespace CosmosDbDemoApp
 {
+    //reference: https://docs.microsoft.com/en-us/azure/cosmos-db/create-sql-api-dotnet
     public class Family
     {
         [JsonProperty(PropertyName = "id")]

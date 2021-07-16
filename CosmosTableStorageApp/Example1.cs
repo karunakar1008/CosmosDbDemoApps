@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace CosmosTableStorageApp
 {
-    class Exmple1
+    class Example1
     {
         //Aim: Azure cosmos database with table API
 

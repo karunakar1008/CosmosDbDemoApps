@@ -4,8 +4,10 @@ using System.Threading.Tasks;
 
 namespace CosmosTableStorageApp
 {
-    class Program
+    class Exmple1
     {
+        //Aim: Azure cosmos database with table API
+
         //Step 1: Create cosmos DB with table end point in the azure portal 
         //Step 2:  create a table called Customer
 

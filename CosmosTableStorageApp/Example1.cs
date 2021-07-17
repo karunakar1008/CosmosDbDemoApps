@@ -18,7 +18,7 @@ namespace CosmosTableStorageApp
             //NewItem().Wait();
             //ReadItem().Wait();
             ////UpdateItem().Wait();
-            DeleteItem().Wait();
+           await DeleteItem();
             Console.WriteLine("Hello World!");
         }
 

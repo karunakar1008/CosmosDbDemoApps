@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDbDemoApp", "CosmosDbDemoApp\CosmosDbDemoApp.csproj", "{FD9326C1-D300-4C6F-B0F0-D03CB463E3DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosTableStorageApp", "CosmosTableStorageApp\CosmosTableStorageApp.csproj", "{3A395E4F-AA5A-46CE-BD30-8DE440A258FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosTableStorageApp", "CosmosTableStorageApp\CosmosTableStorageApp.csproj", "{3A395E4F-AA5A-46CE-BD30-8DE440A258FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosTableSamples", "CosmosTableSamples\CosmosTableSamples.csproj", "{D9D9F9BA-338C-4FDE-BD22-004D6B0BB34E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSQLDbDemoApp", "AzureSQLDbDemoApp\AzureSQLDbDemoApp.csproj", "{32D87DEF-B860-45D5-8517-19C952870E56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{3A395E4F-AA5A-46CE-BD30-8DE440A258FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A395E4F-AA5A-46CE-BD30-8DE440A258FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A395E4F-AA5A-46CE-BD30-8DE440A258FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D9F9BA-338C-4FDE-BD22-004D6B0BB34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D9F9BA-338C-4FDE-BD22-004D6B0BB34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D9F9BA-338C-4FDE-BD22-004D6B0BB34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D9F9BA-338C-4FDE-BD22-004D6B0BB34E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D87DEF-B860-45D5-8517-19C952870E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D87DEF-B860-45D5-8517-19C952870E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D87DEF-B860-45D5-8517-19C952870E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D87DEF-B860-45D5-8517-19C952870E56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
